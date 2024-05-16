@@ -61,7 +61,7 @@ var CLOUDURL = "__CLOUDURL__";
 
 var blnDebug = true;                        //set this to false if you don't want the overhead of recording debug information
 
-var strLMSStandard = "SCORM";    //used in versions that support multiple standards, set to "NONE" to default
+var strLMSStandard = "SCORM2004";    //used in versions that support multiple standards, set to "NONE" to default
                                             //to StandAlone mode. Possible values = "AUTO", "NONE", "SCORM", "AICC", "SCORM2004", "TCAPI", "CMI5"
                                             //AUTO mode will automatically determine the best standard to use
                                             //(it first tries AICC based on "AICC_URL" query param, then TCAPI and CMI5 based on "endpoint" and other
